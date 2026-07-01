@@ -1,0 +1,17 @@
+/* 基础重置 - 确保在不同浏览器表现一致 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/* 题目要求：页面宽度大于等于 768px 时，每行展示两个 App */
+@media screen and (min-width: 768px) {
+    /* 在此添加 768px 以上的布局逻辑 */
+}
+
+/* 题目要求：页面宽度大于等于 1024px 时，每行展示三个 App */
+@media screen and (min-width: 1024px) {
+    /* 在此添加 1024px 以上的布局逻辑 */
+}
